@@ -1,0 +1,154 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+background:#f5f5f5;
+height:100vh;
+display:flex;
+flex-direction:column;
+}
+
+/* top right menu */
+
+.top-right{
+position:absolute;
+top:20px;
+right:30px;
+display:flex;
+gap:20px;
+align-items:center;
+}
+
+.top-right a{
+text-decoration:none;
+color:#333;
+font-size:14px;
+}
+
+.dots{
+font-size:20px;
+cursor:pointer;
+}
+
+/* main section */
+
+main{
+flex:1;
+display:flex;
+flex-direction:column;
+align-items:center;
+justify-content:center;
+}
+
+/* search box */
+
+.search-box input{
+width:500px;
+padding:14px 20px;
+border-radius:30px;
+border:1px solid #ddd;
+outline:none;
+font-size:16px;
+box-shadow:0 2px 5px rgba(0,0,0,0.1);
+}
+
+.search-box input:focus{
+border-color:#6c4ab6;
+}
+
+/* shortcuts */
+
+.shortcuts{
+display:flex;
+gap:40px;
+margin-top:40px;
+}
+
+.shortcut{
+text-align:center;
+cursor:pointer;
+}
+
+.circle{
+width:50px;
+height:50px;
+border-radius:50%;
+background:#ddd;
+display:flex;
+align-items:center;
+justify-content:center;
+font-size:20px;
+margin:auto;
+margin-bottom:8px;
+}
+
+/* customize button */
+
+.customize{
+position:absolute;
+bottom:25px;
+right:30px;
+padding:10px 18px;
+border:none;
+background:#e3d7ff;
+border-radius:20px;
+cursor:pointer;
+}
+
+.customize{
+position:absolute;
+bottom:25px;
+right:30px;
+padding:10px 18px;
+border:none;
+background:#f3f4b1;
+border-radius:20px;
+cursor:pointer;
+display:flex;
+align-items:center;
+gap:8px;
+font-size:14px;
+}
+
+.icon{
+font-size:16px;
+}
+
+.dots{
+background: none;
+border: none;
+outline: none;
+font-size: 22px;
+cursor: pointer;
+padding: 5px;
+}
+
+.dots:hover{
+background-color: #f0f0f0;
+border-radius: 50%;
+}
+
+button{
+border: none;
+background: none;
+outline: none;
+cursor: pointer;
+}
+
+.logo{
+font-size:70px;
+font-weight:bold;
+font-family:Arial, sans-serif;
+margin-bottom: 20px;
+}
+
+.g1{ color:red; }
+.g2{ color:orange; }
+.g3{ color:yellow; }
+.g4{ color:yellow; }
+.g5{ color:orange; }
+.g6{ color:red; }
